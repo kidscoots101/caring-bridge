@@ -16,7 +16,7 @@ Modal.setAppElement('#root');
 
 function renderStarRating(rating) {
   const stars = [];
-  const maxRating = 5; // Assuming a maximum rating of 5 stars
+  const maxRating = 5; 
 
   for (let i = 1; i <= maxRating; i++) {
     if (i <= rating) {
@@ -25,7 +25,6 @@ function renderStarRating(rating) {
       stars.push(<FontAwesomeIcon key={i} icon={faStar} style={{ color: 'gray' }} />);
     }
   }
-
   return stars;
 }
 

@@ -72,7 +72,7 @@ export default function MentalHealth() {
 
       
             <section className="stories-section">
-        <h2>Stories of Mental Health Survivors</h2>
+        <h2>Stories of Mental Health Patients</h2>
         <div className="story-cards">
           {mentalHealthStories.map((story, index) => (
             <div key={index} className="story-card">
