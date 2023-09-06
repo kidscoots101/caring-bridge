@@ -44,11 +44,29 @@ p {
   transition: background-color 0.3s ease;
   font-weight: bold;
 }
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
 .top-right-options {
   display: flex;
   justify-content: flex-end; 
 }
-
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
 .resource-button {
   background-color: #D65C82;
   color: white;
@@ -60,6 +78,9 @@ p {
   transition: background-color 0.3s ease;
   margin-right: 20px;
   font-weight: bold;
+}
+.star-rating {
+  margin-bottom: 10px;
 }
 
 .resource-button:hover {
