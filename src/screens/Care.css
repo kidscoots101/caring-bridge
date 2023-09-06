@@ -54,14 +54,13 @@
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-right: 20px;
     font-weight: bold;
+    align-self: center; 
+    margin-top: 10px;
   }
-  
   .resource-button:hover {
     background-color: #ff467e;
   }
@@ -112,5 +111,11 @@
     
     .nursing-home-image {
       max-height: 300px; /* Reduce image height on smaller screens */
+    }
+    .top-right-options{
+      align-self: center; /* Center vertically */
+      align-items: center; /* Center horizontally */
+      display: flex; /* Enable flexbox layout */
+      justify-content: center;
     }
   }

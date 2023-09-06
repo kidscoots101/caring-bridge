@@ -89,9 +89,7 @@ const NursingHomeCard = ({ name, address, imageUrl }) => {
             <>
                 <User />
                 <ChatBot />
-
             </>
-          
         ) : (
           <>
             <NursingHomeList nursingHomes={nursingHomesData} />
