@@ -49,21 +49,23 @@ export default function MentalHealth() {
           </li>
         </ul>
       </section>
-
       <section className="stories-section">
-        <h2>Stories of Mental Health Survivors</h2>
-        <div className="story-cards">
-          {mentalHealthStories.map((story, index) => (
-            <div key={index} className="story-card">
-              <img src={story.imageSrc} alt={story.title} />
-              <p>{story.content}</p>
-              <a href={story.link} target="_blank" rel="noopener noreferrer" className="read-more-button">
-                Read More
-              </a>
-            </div>
-          ))}
+  <h2>Stories of Mental Health Survivors</h2>
+  <div className="story-cards">
+    {mentalHealthStories.map((story, index) => (
+      <div key={index} className="story-card">
+        <div style={{flexDirection: 'row'}}>
+        <img src={story.imageSrc} alt={story.title} />
+        <p>{story.content}</p>
         </div>
-      </section>
+        <a href={story.link} target="_blank" rel="noopener noreferrer" className="read-more-button">
+          Read More
+        </a>
+      </div>
+    ))}
+  </div>
+</section>
+
 
       <section className="relaxation-section">
         <h2>Relaxation Techniques</h2>

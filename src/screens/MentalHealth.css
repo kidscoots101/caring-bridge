@@ -40,11 +40,9 @@
     border: 1px solid #D6D6DB;
     padding: 20px;
     margin-top: 20px;
-    display: flex;
     align-items: center;
     background-color: white;
     border-radius: 10px;
-
   }
   .story-cards {
     display: grid;
