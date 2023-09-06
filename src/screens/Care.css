@@ -107,10 +107,10 @@ p {
   }
   
   .nursing-home-card {
-    text-align: center; /* Center-align text on smaller screens */
+    text-align: center; 
   }
   
   .nursing-home-image {
-    max-height: 300px; /* Reduce image height on smaller screens */
+    max-height: 300px; 
   }
 }
