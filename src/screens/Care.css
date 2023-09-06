@@ -86,6 +86,7 @@ button {
   align-items: center;
   justify-content: center;
   display: flex;
+  margin-bottom: 10px;
 }
 .small-maps-icon {
   width: 20px; 
