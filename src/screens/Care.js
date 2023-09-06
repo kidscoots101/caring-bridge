@@ -42,12 +42,6 @@ const NursingHomeCard = ({ name, address, imageUrl }) => {
       imageUrl: saints,
 
     },
-    // {
-    //   name: 'Moral Welfare Home',
-    //   address: 'Blk 73 Toa Payoh Lorong 4, #01-596, Singapore 310073',
-    //   imageUrl: moral,
-
-    // },
     {
       name: 'Peacehaven Nursing Home',
       address: '9 Upper Changi Rd N, Singapore 507706',
