@@ -20,6 +20,12 @@ function App() {
       <Route path="/" element={<Care />} />
       <Route path="/explore" element={<MentalHealth />} />
     </Routes>
+    <footer className="footer">
+      <div className="footer-content">
+        <p>Website created with <span className="heart">❤</span> by the CaringBridge team.</p>
+      </div>
+    </footer>
+
     </Router>
 
   );

@@ -97,3 +97,25 @@ h1, h2, h3, p {
   background-color: #ff467e;
   color: white;
 }
+.footer {
+  color: #ffffff; 
+  padding: 20px 0;
+  text-align: center;
+}
+
+.heart {
+  color: #D65C82;
+}
+
+.footer-content {
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px 0;
+  }
+
+  .footer-content {
+    font-size: 14px;
+  }
+}
