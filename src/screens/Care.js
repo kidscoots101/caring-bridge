@@ -9,6 +9,8 @@ import moral from '../assets/moral-welfare.png'
 import peach from '../assets/peachhaven.jpeg'
 import User from './User';
 import Modal from 'react-modal'; 
+import serene from '../assets/serene.jpeg'
+import golden from '../assets/golden.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
@@ -113,6 +115,18 @@ const NursingHomeCard = ({ name, address, imageUrl, rating }) => {
       imageUrl: moral,
       rating: 2
     },
+    {
+      name: 'Serene Home Nursing Home',
+      address: '123 Serene Ave, Singapore 123456',
+      imageUrl: serene,
+      rating: 4.6
+    },
+    {
+      name: 'Golden Years Nursing Home',
+      address: '456 Gold St, Singapore 789012',
+      imageUrl: golden,
+      rating: 4.4
+    }
   ];
   
   const NursingHomeList = ({ nursingHomes }) => {
