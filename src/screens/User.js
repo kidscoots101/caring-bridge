@@ -92,7 +92,7 @@ export default function MentalHealth() {
       <section className="relaxation-section">
   <h2>Relaxation Techniques</h2>
   <div className="relaxation-card">
-  <p><a href="https://www.youtube.com/watch?v=K353fkHYMPs" target="_blank" rel="noopener noreferrer">Technique 1: Deep Breathing</a></p>    <p>
+  <p><a href="https://www.youtube.com/watch?v=K353fkHYMPs" target="_blank" rel="noopener noreferrer" style={{ color: "#D65C82" }}>Technique 1: Deep Breathing</a></p>    <p>
       Deep breathing is a simple yet effective relaxation technique. Find a quiet place to sit or lie down.
       Close your eyes, inhale slowly through your nose for a count of four, hold your breath for a count of four, and
       then exhale slowly through your mouth for a count of four. Repeat this process several times to calm your mind
@@ -101,7 +101,7 @@ export default function MentalHealth() {
   </div>
 
   <div className="relaxation-card">
-  <p><a href="https://www.youtube.com/watch?v=ClqPtWzozXs" target="_blank" rel="noopener noreferrer">Technique 2: Progressive Muscle Relaxation</a></p>    <p>
+  <p><a href="https://www.youtube.com/watch?v=ClqPtWzozXs" target="_blank" rel="noopener noreferrer" style={{ color: "#D65C82" }}>Technique 2: Progressive Muscle Relaxation</a></p>    <p>
       Progressive muscle relaxation involves tensing and then relaxing different muscle groups in your body. Start
       with your toes and work your way up to your head. Focus on the sensation of relaxation as you release
       tension in each muscle group. This technique can help relieve physical and mental tension.
@@ -109,7 +109,7 @@ export default function MentalHealth() {
   </div>
 
   <div className="relaxation-card">
-  <p><a href="https://www.youtube.com/watch?v=t1rRo6cgM_E" target="_blank" rel="noopener noreferrer">Technique 3: Guided Imagery</a></p>     <p>
+  <p><a href="https://www.youtube.com/watch?v=t1rRo6cgM_E" target="_blank" rel="noopener noreferrer" style={{ color: "#D65C82" }}>Technique 3: Guided Imagery</a></p>     <p>
       Guided imagery is a relaxation method that involves using your imagination to create calming mental images.
       Close your eyes and imagine yourself in a peaceful, tranquil place, such as a beach or a forest. Visualize
       the sights, sounds, and sensations of this place, allowing yourself to become fully immersed in the experience.
