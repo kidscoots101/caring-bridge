@@ -1,0 +1,53 @@
+{
+    "nursingHomesDataMalay": [
+      {
+        "name": "Rumah Penjagaan Valley Orange",
+        "address": "221 Clementi Ave 4, Singapura 129881",
+        "imageUrl": "orangeValley",
+        "rating": 3
+      },
+      {
+        "name": "Rumah Penjagaan Usia Tua Lee Ah Mooi",
+        "address": "1 Thomson Ln, Singapura 297725",
+        "imageUrl": "lee",
+        "rating": 4.3
+      },
+      {
+        "name": "Hospital Ren Ci",
+        "address": "71 Jalan Irrawaddy, Singapura 329562",
+        "imageUrl": "renci",
+        "rating": 3
+      },
+      {
+        "name": "Rumah Penjagaan St. Andrews",
+        "address": "50 Buangkok Green, Singapura 539753",
+        "imageUrl": "saints",
+        "rating": 3
+      },
+      {
+        "name": "Rumah Penjagaan Peacehaven",
+        "address": "9 Upper Changi Rd N, Singapura 507706",
+        "imageUrl": "peach",
+        "rating": 5
+      },
+      {
+        "name": "Rumah Kebajikan Moral",
+        "address": "50 Bukit Batok West Ave 2, Singapura 659205",
+        "imageUrl": "moral",
+        "rating": 2
+      },
+      {
+        "name": "Rumah Penjagaan Serene",
+        "address": "123 Serene Ave, Singapura 123456",
+        "imageUrl": "serene",
+        "rating": 4.6
+      },
+      {
+        "name": "Rumah Penjagaan Golden Years",
+        "address": "456 Gold St, Singapura 789012",
+        "imageUrl": "golden",
+        "rating": 4.4
+      }
+    ]
+  }
+  

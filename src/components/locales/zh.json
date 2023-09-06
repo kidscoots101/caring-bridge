@@ -1,0 +1,53 @@
+{
+    "nursingHomesDataChinese": [
+      {
+        "name": "橙谷护理之家",
+        "address": "新加坡129881，金文泰大道4号221号",
+        "imageUrl": "orangeValley",
+        "rating": 3
+      },
+      {
+        "name": "李亚梅老年之家",
+        "address": "新加坡297725，汤普森巷1号",
+        "imageUrl": "lee",
+        "rating": 4.3
+      },
+      {
+        "name": "仁慈医院",
+        "address": "新加坡329562，伊拉瓦迪路71号",
+        "imageUrl": "renci",
+        "rating": 3
+      },
+      {
+        "name": "圣安德鲁斯护理之家",
+        "address": "新加坡539753，武吉班高绿地50号",
+        "imageUrl": "saints",
+        "rating": 3
+      },
+      {
+        "name": "和平园护理之家",
+        "address": "新加坡507706，大士岭北路9号",
+        "imageUrl": "peach",
+        "rating": 5
+      },
+      {
+        "name": "道德福利之家",
+        "address": "659205，新加坡，武吉巴督西大道2号50号",
+        "imageUrl": "moral",
+        "rating": 2
+      },
+      {
+        "name": "宁静家护理之家",
+        "address": "新加坡123456，宁静大道123号",
+        "imageUrl": "serene",
+        "rating": 4.6
+      },
+      {
+        "name": "黄金岁月护理之家",
+        "address": "新加坡789012，黄金街456号",
+        "imageUrl": "golden",
+        "rating": 4.4
+      }
+    ]
+  }
+  
