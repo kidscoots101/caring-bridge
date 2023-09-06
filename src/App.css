@@ -29,11 +29,11 @@ h1, h2, h3, p {
 .search-bar {
   padding: 10px;
   margin: 20px;
-  border: 1px solid #D65C82;
-  border-radius: 5px;
+  border: 0.9px solid #2C2C30;
+  border-radius: 20px;
   font-size: 16px;
   width: 200px;
-  color: #D6D6DB;
+  background-color: #e3e3e8;
 }
 .App-header {
   background-color: #282c34;
@@ -58,7 +58,6 @@ h1, h2, h3, p {
     transform: rotate(360deg);
   }
 }
-/* Header.css */
 
 .header {
   background-color: #D65C82;
@@ -76,8 +75,8 @@ h1, h2, h3, p {
 .search-bar {
   padding: 10px;
   width: 300px;
-  border: none;
-  border-radius: 12px;
+  /* border: none; */
+  border-radius: 30px;
   font-size: 16px;
   color: #2C2C30;
 }

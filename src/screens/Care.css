@@ -80,6 +80,7 @@ button {
   font-weight: bold;
   justify-self: flex-end;
   align-self: flex-end;
+  margin-top: 40px;
 }
 .star-rating {
   margin-bottom: 10px;
@@ -143,6 +144,16 @@ button {
   gap: 8px; 
   margin-top: 8px; 
 }
+.search-bar-container {
+  display: flex; 
+  align-items: center; 
+}
+.header-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .language-buttons button {
   background-color: transparent;
@@ -151,7 +162,7 @@ button {
   padding: 8px 12px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border-right: 1px solid #333; 
+  border-right: 0.5px solid #333; 
   border-radius: 0%;
 }
 .language-buttons button:last-child {
@@ -173,5 +184,21 @@ button {
   
   .nursing-home-image {
     max-height: 300px; 
+  }
+  .header-container {
+    flex-direction: column;
+  }
+  .search-bar-container {
+    flex-direction: column;
+  }
+  .resource-button{
+    align-self: center;
+    margin-bottom: 10px;
+  }
+  .language-buttons {
+    align-self: center;
+  }
+  .search-bar {
+    align-self: center;
   }
 }

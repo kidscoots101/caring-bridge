@@ -348,6 +348,15 @@ export default function Care() {
 
   return (
     <div className="background">
+      <div className="header-container">
+     <div className="search-bar-container">
+      <input
+        type="text"
+        placeholder=""
+        className="search-bar"
+      />
+      <button className="search-button">Search</button>
+    </div>
       <div className="top-right-options">
         <button
           onClick={toggleMentalHealthResource}
@@ -364,6 +373,8 @@ export default function Care() {
           <button onClick={() => handleTamil()}>தமிழ்</button>
         </div>
       </div>
+      </div>
+
       {showMentalHealthResource ? (
         <>
           <User />
