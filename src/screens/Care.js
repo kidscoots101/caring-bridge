@@ -110,7 +110,7 @@ const NursingHomeCard = ({ name, address, imageUrl, rating }) => {
     },
     {
       name: 'Moral Welfare Home',
-      address: '50 Bukit Batok West Ave 2, Singapore 659205',
+      address: '50 Bukit Batok West Ave 2, 659205',
       imageUrl: moral,
       rating: 2
     },
