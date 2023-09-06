@@ -352,7 +352,7 @@ export default function Care() {
      <div className="search-bar-container">
       <input
         type="text"
-        placeholder=""
+        placeholder="Search CaringBridge..."
         className="search-bar"
       />
       <button className="search-button">Search</button>
