@@ -32,7 +32,7 @@ const NursingHomeCard = ({ name, address, imageUrl }) => {
       imageUrl: lee,
     },
     {
-      name: 'Ren Ci Hospital & Medicare Centre',
+      name: 'Ren Ci Hospital',
       address: '71 Irrawaddy Rd, Singapore 329562',
       imageUrl: renci,
     },
@@ -55,7 +55,7 @@ const NursingHomeCard = ({ name, address, imageUrl }) => {
 
     },
     {
-      name: 'Thye Hua Kwan Nursing Home',
+      name: 'Moral Welfare Home',
       address: '50 Bukit Batok West Ave 2, Singapore 659205',
       imageUrl: moral,
 

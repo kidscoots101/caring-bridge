@@ -18,7 +18,7 @@ function ChatBot() {
       addResponseMessage("I'm sorry you feel that way. I'm here to chat and keep you company! Loneliness can be a tough feeling to deal with, but talking to someone or engaging in activities you enjoy can help alleviate it. Is there something specific you'd like to talk about or do to help you feel better?")
     }
     else if (newMessage == "I am having a hard time taking care of my patients") {
-      addResponseMessage("I'm truly sorry to hear about your dog. Losing a beloved pet can be very painful. If you'd like to talk or share memories, I'm here to listen and provide support. Remember, it's okay to grieve, and reaching out to friends and family can also help.")
+      addResponseMessage("I'm sorry to hear that you're having a difficult time taking care of your patients. Providing care for others, especially in a healthcare or caregiving setting, can be emotionally and physically demanding. If you'd like to talk or share anything, I'm here to listen and provide support. Remember, it's okay to struggle, reaching out to friends and family can also help.")
     }
     else {
       addResponseMessage("Hi there! How may I assist you today?")
