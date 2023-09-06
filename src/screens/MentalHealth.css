@@ -63,6 +63,40 @@
     margin-top: 20px;
     border-radius: 10px;
   }
+  /* MentalHealth.css (or your custom CSS file) */
+
+/* Style for the "Mental Health Resources" section */
+.resources-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Style for the resource heading */
+.resource-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Style for each resource item */
+.resource-item {
+  margin: 10px 0;
+}
+
+/* Style for resource links */
+.resource-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.resource-link:hover {
+  color: #0056b3;
+}
+
   @media (max-width: 768px) {
     .story-cards {
       display: grid;
@@ -71,6 +105,13 @@
     }
     .read-more-button {
       margin-top: 20px;
+      font-size: 16px;
+    }
+    .resource-heading {
+      font-size: 20px;
+    }
+  
+    .resource-link {
       font-size: 16px;
     }
   }
