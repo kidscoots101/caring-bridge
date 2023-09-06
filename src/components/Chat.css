@@ -22,4 +22,10 @@
     height: 400px;
     border-radius: 10px;
   }
-  
+  @media (min-width: 768px) {
+    .chat-icon.expanded {
+      width: 300px;
+      height: 400px;
+      border-radius: 10px;
+    }
+  }
