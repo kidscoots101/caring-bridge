@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Care from './screens/Care';
-import User from './screens/User';
+import MentalHealth from './screens/User';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <button className="search-button">Search</button>
           <Routes>
       <Route path="/" element={<Care />} />
-      <Route path="/explore" element={<User />} />
+      <Route path="/explore" element={<MentalHealth />} />
     </Routes>
     </Router>
 
