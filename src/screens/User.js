@@ -87,11 +87,36 @@ export default function MentalHealth() {
 
 
       <section className="relaxation-section">
-        <h2>Relaxation Techniques</h2>
-        <div className="relaxation-card">
-          <p>Technique 1: Breathing exercises...</p>
-        </div>
-      </section>
+  <h2>Relaxation Techniques</h2>
+  <div className="relaxation-card">
+    <p>Technique 1: Deep Breathing</p>
+    <p>
+      Deep breathing is a simple yet effective relaxation technique. Find a quiet place to sit or lie down.
+      Close your eyes, inhale slowly through your nose for a count of four, hold your breath for a count of four, and
+      then exhale slowly through your mouth for a count of four. Repeat this process several times to calm your mind
+      and reduce stress.
+    </p>
+  </div>
+
+  <div className="relaxation-card">
+    <p>Technique 2: Progressive Muscle Relaxation</p>
+    <p>
+      Progressive muscle relaxation involves tensing and then relaxing different muscle groups in your body. Start
+      with your toes and work your way up to your head. Focus on the sensation of relaxation as you release
+      tension in each muscle group. This technique can help relieve physical and mental tension.
+    </p>
+  </div>
+
+  <div className="relaxation-card">
+    <p>Technique 3: Guided Imagery</p>
+    <p>
+      Guided imagery is a relaxation method that involves using your imagination to create calming mental images.
+      Close your eyes and imagine yourself in a peaceful, tranquil place, such as a beach or a forest. Visualize
+      the sights, sounds, and sensations of this place, allowing yourself to become fully immersed in the experience.
+    </p>
+  </div>
+</section>
+
     </div>
   );
 }
