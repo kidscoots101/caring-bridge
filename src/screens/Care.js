@@ -11,8 +11,11 @@ import User from './User';
 import Modal from 'react-modal'; 
 import serene from '../assets/serene.jpeg'
 import golden from '../assets/golden.png'
+import maps from '../assets/google-maps-icon.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { faStar,faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+
+
 
 Modal.setAppElement('#root');
 
@@ -30,7 +33,9 @@ function renderStarRating(rating) {
   return stars;
 }
 
-const NursingHomeCard = ({ name, address, imageUrl, rating }) => {
+
+
+const NursingHomeCard = ({ name, address, imageUrl, rating, coordinates }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => {
@@ -47,7 +52,12 @@ const NursingHomeCard = ({ name, address, imageUrl, rating }) => {
         <p>{address}</p>
       </div>
     );
-    openModal(content); // Open the modal with the specified content
+    openModal(content); 
+  };
+  const handleShowOnGoogleMaps = () => {
+    const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+    
+    window.open(googleMapsUrl, '_blank');
   };
     
   return (
@@ -67,6 +77,9 @@ const NursingHomeCard = ({ name, address, imageUrl, rating }) => {
         <div className='modal-content'>
          <h2>{name}</h2>
         <p>{address}</p>
+        <button className="show-on-google-maps-button" onClick={handleShowOnGoogleMaps}>
+        <img src={maps} alt="Google Maps" className="small-maps-icon"/> Show on Google Maps
+      </button>
         <div className="star-rating">{renderStarRating(rating)}</div>
             <button onClick={closeModal} className="modal-close-button">
           Close
