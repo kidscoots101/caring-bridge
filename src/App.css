@@ -58,3 +58,42 @@ h1, h2, h3, p {
     transform: rotate(360deg);
   }
 }
+/* Header.css */
+
+.header {
+  background-color: #D65C82;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #2C2C30;
+}
+
+.search-button {
+  background-color: #D65C82;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #ff467e;
+  color: white;
+}

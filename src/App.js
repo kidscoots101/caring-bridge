@@ -10,11 +10,13 @@ function App() {
   href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
   rel="stylesheet"
 />
-
-      <header>
-        <input type="text" placeholder="Search" className="search-bar" />
-      </header>
-    <Routes>
+        <input
+          type="text"
+          placeholder="Search for inspiration..."
+          className="search-bar"
+        />
+        <button className="search-button">Search</button>
+          <Routes>
       <Route path="/" element={<Care />} />
       <Route path="/explore" element={<User />} />
     </Routes>

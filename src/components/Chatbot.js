@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Widget, addResponseMessage } from 'react-chat-widget';
 import 'react-chat-widget/lib/styles.css';
-import { FiMessageSquare } from 'react-icons/fi'; 
 import "./Chat.css"
 
 function ChatBot() {
@@ -12,7 +11,7 @@ function ChatBot() {
   };
 
   const handleNewUserMessage = (newMessage) => {
-    addResponseMessage("You said: " + newMessage);
+    addResponseMessage("Hi there! How may I assist you today?");
   };
 
   return (
@@ -22,8 +21,8 @@ function ChatBot() {
       >
           <Widget
             handleNewUserMessage={handleNewUserMessage}
-            title="Chatbot"
-            subtitle="Click here to close"
+            title="Caring Bridge"
+            subtitle="Our ChatBot is 24/7!"
             showCloseButton
             fullScreenMode={false}
           />
