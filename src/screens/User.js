@@ -1,7 +1,34 @@
 import React from 'react';
 import './MentalHealth.css';
+import mentalhealth from '../assets/mental-health-1.png'
 
 export default function MentalHealth() {
+  const mentalHealthStories = [
+    {
+      title: "A Journey of Resilience",
+      imageSrc: mentalhealth,
+      content: "“I started slowly isolating myself from people, because I thought there was no point for me to even try to make friends or be friendly with people. Since most people weren’t being kind to me, I decided to just keep to myself,” she said.",
+      link: "https://www.straitstimes.com/singapore/sharing-their-stories-to-help-other-young-people-with-mental-health-struggles"
+    },
+    {
+      title: "A Journey of Resilience",
+      imageSrc: mentalhealth,
+      content: "“I started slowly isolating myself from people, because I thought there was no point for me to even try to make friends or be friendly with people. Since most people weren’t being kind to me, I decided to just keep to myself,” she said.",
+      link: "https://www.straitstimes.com/singapore/sharing-their-stories-to-help-other-young-people-with-mental-health-struggles"
+    },
+    {
+      title: "A Journey of Resilience",
+      imageSrc: mentalhealth,
+      content: "“I started slowly isolating myself from people, because I thought there was no point for me to even try to make friends or be friendly with people. Since most people weren’t being kind to me, I decided to just keep to myself,” she said.",
+      link: "https://www.straitstimes.com/singapore/sharing-their-stories-to-help-other-young-people-with-mental-health-struggles"
+    },
+    {
+      title: "A Journey of Resilience",
+      imageSrc: mentalhealth,
+      content: "“I started slowly isolating myself from people, because I thought there was no point for me to even try to make friends or be friendly with people. Since most people weren’t being kind to me, I decided to just keep to myself,” she said.",
+      link: "https://www.straitstimes.com/singapore/sharing-their-stories-to-help-other-young-people-with-mental-health-struggles"
+    },
+  ];
   return (
     <div className="mental-health-page">
       <header className="page-header">
@@ -25,9 +52,16 @@ export default function MentalHealth() {
 
       <section className="stories-section">
         <h2>Stories of Mental Health Survivors</h2>
-        <div className="story-card">
-          <img src="story-image.jpg" alt="Story" />
-          <p>Story content goes here...</p>
+        <div className="story-cards">
+          {mentalHealthStories.map((story, index) => (
+            <div key={index} className="story-card">
+              <img src={story.imageSrc} alt={story.title} />
+              <p>{story.content}</p>
+              <a href={story.link} target="_blank" rel="noopener noreferrer" className="read-more-button">
+                Read More
+              </a>
+            </div>
+          ))}
         </div>
       </section>
 

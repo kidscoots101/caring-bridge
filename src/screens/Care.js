@@ -86,7 +86,12 @@ const NursingHomeCard = ({ name, address, imageUrl }) => {
           </button>
         </div>
         {showMentalHealthResource ? (
-          <User />
+            <>
+                <User />
+                <ChatBot />
+
+            </>
+          
         ) : (
           <>
             <NursingHomeList nursingHomes={nursingHomesData} />

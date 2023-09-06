@@ -1,0 +1,78 @@
+.mental-health-page {
+    padding: 20px;
+  }
+  
+  .page-header {
+    background-color: #D65C82;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #2C2C30;
+    margin-top: 20px;
+  }
+  .read-more-button {
+    background-color: #D65C82;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    display: block; /* Make the button a block element */
+  }
+  
+  .read-more-button:hover {
+    background-color: #ff467e;
+  }
+  
+
+  
+  .resource-list {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .story-card {
+    border: 1px solid #D6D6DB;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+
+  }
+  .story-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    
+  }
+  
+  .story-card img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 20px;
+  }
+  
+  .relaxation-card {
+    background-color: #D6D6DB;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  @media (max-width: 768px) {
+    .story-cards {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      gap: 20px; 
+    }
+    .read-more-button {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+  }
