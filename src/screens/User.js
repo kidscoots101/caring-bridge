@@ -32,7 +32,11 @@ export default function MentalHealth() {
   return (
     <div className="mental-health-page">
       <header className="page-header">
-        <h1>Caregiving is hard. We understand.</h1>
+      <h1>
+  Caregiving is{" "}
+  <span style={{ color: "#D65C82" }}>hard</span>. {" "} We
+  <span style={{fontStyle: 'italic'}}>understand.</span>
+</h1>
       </header>
 
       <section className="resources-section">
@@ -65,7 +69,6 @@ export default function MentalHealth() {
     </li>
   </ul>
 </section>
-
 
       
             <section className="stories-section">
