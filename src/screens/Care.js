@@ -2,6 +2,11 @@ import React, {useState} from 'react'
 import './Care.css'
 import ChatBot from '../components/Chatbot';
 import orangeValley from '../assets/orange-valley.png'
+import lee from '../assets/lee-ah-moi.png'
+import renci from '../assets/ren-ci.png'
+import saints from '../assets/sanh.jpeg'
+import moral from '../assets/moral-welfare.png'
+import peach from '../assets/peachhaven.jpeg'
 import User from './User';
 
 const NursingHomeCard = ({ name, address, imageUrl }) => {
@@ -24,35 +29,35 @@ const NursingHomeCard = ({ name, address, imageUrl }) => {
     {
       name: 'Lee Ah Mooi Old Age Home',
       address: '1 Thomson Ln, Singapore 297725',
-      imageUrl: orangeValley,
+      imageUrl: lee,
     },
     {
       name: 'Ren Ci Hospital & Medicare Centre',
       address: '71 Irrawaddy Rd, Singapore 329562',
-      imageUrl: orangeValley,
+      imageUrl: renci,
     },
     {
       name: 'St. Andrews Nursing Home',
       address: '50 Buangkok Green, Singapore 539753',
-      imageUrl: orangeValley,
+      imageUrl: saints,
 
     },
-    {
-      name: 'Moral Welfare Home',
-      address: 'Blk 73 Toa Payoh Lorong 4, #01-596, Singapore 310073',
-      imageUrl: orangeValley,
+    // {
+    //   name: 'Moral Welfare Home',
+    //   address: 'Blk 73 Toa Payoh Lorong 4, #01-596, Singapore 310073',
+    //   imageUrl: moral,
 
-    },
+    // },
     {
       name: 'Peacehaven Nursing Home',
       address: '9 Upper Changi Rd N, Singapore 507706',
-      imageUrl: orangeValley,
+      imageUrl: peach,
 
     },
     {
       name: 'Thye Hua Kwan Nursing Home',
       address: '50 Bukit Batok West Ave 2, Singapore 659205',
-      imageUrl: orangeValley,
+      imageUrl: moral,
 
     },
   ];
