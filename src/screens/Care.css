@@ -5,17 +5,18 @@
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 10px;
-    text-align: center;
+    text-align: flex-start;
   }
   
   h2 {
-    font-size: 24px;
+    font-size: 20px;
     color: #2C2C30;
   }
   
   p {
-    font-size: 16px;
+    font-size: 14px;
     color: #2C2C30;
+    
   }
   .nursing-home-list {
     display: grid;
@@ -39,13 +40,12 @@
   .see-more-button:hover {
     background-color: #ff467e;
   }
-  /* Add these styles to your existing Care.css file or create a new CSS file */
 
 .chatbot {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 1000; /* Ensure it appears above other content */
+    z-index: 1000; 
   }
   
   .chat-icon {

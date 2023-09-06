@@ -7,7 +7,6 @@ const NursingHomeCard = ({ name, address, description }) => {
       <div className="nursing-home-card">
         <h2>{name}</h2>
         <p>{address}</p>
-        <p>{description}</p>
         <button className="see-more-button">See More</button>
       </div>
     );
