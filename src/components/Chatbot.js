@@ -23,7 +23,10 @@ function ChatBot() {
       addResponseMessage(
         "I'm sorry to hear that you're having a difficult time taking care of your patients. Providing care for others, especially in a healthcare or caregiving setting, can be emotionally and physically demanding. If you'd like to talk or share anything, I'm here to listen and provide support. Remember, it's okay to struggle, reaching out to friends and family can also help.",
       );
-    } else {
+    } else if (newMessage == "hsa") {
+      addResponseMessage("I'm sorry I don't understand.")
+    }
+    else {
       addResponseMessage("Hi there! How may I assist you today?");
     }
   };
