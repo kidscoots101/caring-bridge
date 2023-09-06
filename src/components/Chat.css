@@ -1,0 +1,27 @@
+/* ChatBot.css */
+
+.chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .chat-icon {
+    /* background-color: #D65C82; */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .chat-icon.expanded {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  

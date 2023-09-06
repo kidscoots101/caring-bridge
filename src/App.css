@@ -12,7 +12,29 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body {
+  background-color: #D6D6DB; 
+  font-family: Arial, sans-serif;
+}
 
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #d6d6db;
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  font-family: 'Lato', sans-serif;
+}
+.search-bar {
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #D65C82;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+  color: #D6D6DB;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
