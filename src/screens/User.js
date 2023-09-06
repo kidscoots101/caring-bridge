@@ -35,7 +35,7 @@ export default function MentalHealth() {
       <h1>
   Caregiving is{" "}
   <span style={{ color: "#D65C82" }}>hard</span>. {" "} We
-  <span style={{fontStyle: 'italic'}}>understand.</span>
+  <span style={{fontStyle: 'italic'}}> understand.</span>
 </h1>
       </header>
 
