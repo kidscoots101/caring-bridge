@@ -67,6 +67,7 @@ const NursingHomeCard = ({ name, address, imageUrl, rating, coordinates }) => {
       <img src={imageUrl} alt={name} className="nursing-home-image" />
       <h2>{name}</h2>
       <p>{address}</p>
+      <div className="star-rating">{renderStarRating(rating)}</div>
       <button className="see-more-button" onClick={openModal}>
         + See More
       </button>
