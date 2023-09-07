@@ -56,7 +56,7 @@ const NursingHomeCard = ({ name, address, imageUrl, rating, coordinates }) => {
   };
   const handleShowOnGoogleMaps = () => {
     const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-      address,
+      name + " " + address,
     )}`;
 
     window.open(googleMapsUrl, "_blank");
