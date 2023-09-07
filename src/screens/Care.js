@@ -80,6 +80,7 @@ const NursingHomeCard = ({ name, address, imageUrl, rating, coordinates }) => {
         <div className="modal-content">
           <h2>{name}</h2>
           <p>{address}</p>
+          <div className="star-rating">{renderStarRating(rating)}</div>
           <button
             className="show-on-google-maps-button"
             onClick={handleShowOnGoogleMaps}
@@ -87,7 +88,6 @@ const NursingHomeCard = ({ name, address, imageUrl, rating, coordinates }) => {
             <img src={maps} alt="Google Maps" className="small-maps-icon" />{" "}
             Show on Google Maps
           </button>
-          <div className="star-rating">{renderStarRating(rating)}</div>
           <button onClick={closeModal} className="modal-close-button">
             Close
           </button>
