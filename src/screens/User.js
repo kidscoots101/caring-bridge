@@ -123,12 +123,18 @@ export default function MentalHealth() {
       <section className="relaxation-section">
         <h2>Relaxation Techniques</h2>
         <div className="relaxation-card">
+          <div className="video-container">
+        <iframe width="300" height="215"
+            src="https://www.youtube.com/embed/K353fkHYMPs">
+          </iframe>
+          </div>
+          <div className="content">
           <p>
             <a
               href="https://www.youtube.com/watch?v=K353fkHYMPs"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#D65C82" }}
+              style={{ color: "#D65C82", fontWeight: 'bold',  fontSize: 20 }}
             >
               Technique 1: Deep Breathing
             </a>
@@ -141,15 +147,23 @@ export default function MentalHealth() {
             four. Repeat this process several times to calm your mind and reduce
             stress.
           </p>
+          </div>
+
         </div>
 
         <div className="relaxation-card">
+        <div className="video-container">
+        <iframe width="300" height="215"
+            src="https://www.youtube.com/embed/ClqPtWzozXs">
+          </iframe>
+          </div>
+          <div className="content">
           <p>
             <a
               href="https://www.youtube.com/watch?v=ClqPtWzozXs"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#D65C82" }}
+              style={{ color: "#D65C82", fontWeight: 'bold',  fontSize: 20 }}
             >
               Technique 2: Progressive Muscle Relaxation
             </a>
@@ -161,15 +175,23 @@ export default function MentalHealth() {
             you release tension in each muscle group. This technique can help
             relieve physical and mental tension.
           </p>
+          </div>
         </div>
 
         <div className="relaxation-card">
+          <div className="video-container">
+          <iframe width="300" height="215"
+            src="https://www.youtube.com/embed/t1rRo6cgM_E">
+          </iframe>
+          </div>
+            <div className="content">
+
           <p>
             <a
               href="https://www.youtube.com/watch?v=t1rRo6cgM_E"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#D65C82" }}
+              style={{ color: "#D65C82", fontWeight: 'bold',  fontSize: 20 }}
             >
               Technique 3: Guided Imagery
             </a>
@@ -181,6 +203,8 @@ export default function MentalHealth() {
             forest. Visualize the sights, sounds, and sensations of this place,
             allowing yourself to become fully immersed in the experience.
           </p>
+          </div>
+
         </div>
       </section>
     </div>
