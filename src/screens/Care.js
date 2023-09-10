@@ -14,6 +14,7 @@ import golden from "../assets/golden.png";
 import maps from "../assets/google-maps-icon.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import logo from '../assets/caring-bridge-icon.jpeg'
 
 Modal.setAppElement("#root");
 
@@ -375,7 +376,6 @@ export default function Care() {
         </div>
       </div>
       </div>
-
       {showMentalHealthResource ? (
         <>
           <User />
