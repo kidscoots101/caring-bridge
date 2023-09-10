@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Care from "./screens/Care";
 import MentalHealth from "./screens/User";
-import logo from "../src/assets/caring-bridge-icon.png";
+import logo from "../src/assets/caring-bridge-icon.jpeg";
 
 function App() {
   return (

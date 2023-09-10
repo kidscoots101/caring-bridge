@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { Widget, addResponseMessage } from "react-chat-widget";
 import "react-chat-widget/lib/styles.css";
 import "./Chat.css";
-import logo from "../assets/caring-bridge-icon.png"
+
 import profileAvatar from '../assets/profile-avatar.png'
+import logo1 from '../assets/caring-bridge-icon.png'
+import logo2 from '../assets/caring-bridge-icon.jpeg'
 
 
 function ChatBot() {
@@ -46,9 +48,9 @@ function ChatBot() {
         showCloseButton
         fullScreenMode={false}
         senderPlaceHolder={"Type a message..."}
-        profileAvatar={logo}
+        profileAvatar={logo1}
         profileClientAvatar={profileAvatar}
-        titleAvatar={logo}
+        titleAvatar={logo1}
         resizable={true}
         emojis={true}
         showBadge={true}
