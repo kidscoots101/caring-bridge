@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import { Widget, addResponseMessage } from "react-chat-widget";
 import "react-chat-widget/lib/styles.css";
 import "./Chat.css";
 
 import profileAvatar from '../assets/profile-avatar.png'
 import logo1 from '../assets/caring-bridge-icon.png'
-import logo2 from '../assets/caring-bridge-icon.jpeg'
+// import logo2 from '../assets/caring-bridge-icon.jpeg'
 
 
 function ChatBot() {
@@ -14,6 +14,7 @@ function ChatBot() {
   const handleChatToggle = () => {
     setIsChatOpen(!isChatOpen);
   };
+
 
   const handleNewUserMessage = (newMessage) => {
     if (newMessage === "Hi") {
@@ -35,7 +36,6 @@ function ChatBot() {
       addResponseMessage("Hi there! How may I assist you today?");
     }
   };
-
   return (
     <div
       className={`${isChatOpen ? "expanded" : ""}`}

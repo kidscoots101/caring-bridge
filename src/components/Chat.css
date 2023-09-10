@@ -4,4 +4,7 @@
 .rcw-conversation-container .rcw-header {
     background-color: #d65c82 !important;
 }
+.rcw-client .rcw-message-text {
+    background-color: #E884A3;
+}
 
