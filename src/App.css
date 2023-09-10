@@ -13,13 +13,13 @@
   }
 }
 body {
-  background-color: #e3e3e8; 
+  background-color: #f1f1f4; 
   font-family: Arial, sans-serif;
 }
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #e3e3e8;
+  background-color: #f1f1f4;
   margin: 0;
 }
 
@@ -33,7 +33,7 @@ h1, h2, h3, p {
   border-radius: 20px;
   font-size: 16px;
   width: 200px;
-  background-color: #e3e3e8;
+  background-color: #f1f1f4;
 }
 .App-header {
   background-color: #282c34;
