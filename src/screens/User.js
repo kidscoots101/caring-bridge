@@ -3,6 +3,7 @@ import "./MentalHealth.css";
 import mentalhealth from "../assets/rryouth2508.avif";
 import mh from '../assets/mh2.png'
 import mh3 from '../assets/mh3.avif'
+import burden from '../assets/burdne.avif'
 
 export default function MentalHealth() {
   const mentalHealthStories = [
@@ -22,7 +23,7 @@ export default function MentalHealth() {
     },
     {
       title: "The Burden",
-      imageSrc: mentalhealth,
+      imageSrc: burden,
       content:
         "“Emotional caregiving can’t be outsourced. I have seen first-hand the mental, emotional and physical toll that taking care of my nephew who lives with mental health challenges has taken on my brother and sister-in-law. And more than a few caregivers I personally know have suffered burnout and spiralled into depression. ",
       link: "https://www.channelnewsasia.com/commentary/mental-health-caregiver-burden-support-tiktok-masked-woman-2867016",
