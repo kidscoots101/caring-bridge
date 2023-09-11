@@ -1,6 +1,8 @@
 import React from "react";
 import "./MentalHealth.css";
-import mentalhealth from "../assets/mental-health-1.png";
+import mentalhealth from "../assets/rryouth2508.avif";
+import mh from '../assets/mh2.png'
+import mh3 from '../assets/mh3.avif'
 
 export default function MentalHealth() {
   const mentalHealthStories = [
@@ -12,25 +14,25 @@ export default function MentalHealth() {
       link: "https://www.straitstimes.com/singapore/sharing-their-stories-to-help-other-young-people-with-mental-health-struggles",
     },
     {
-      title: "A Journey of Resilience",
-      imageSrc: mentalhealth,
+      title: "The Caregiving Experience",
+      imageSrc: mh,
       content:
-        "“I started slowly isolating myself from people, because I thought there was no point for me to even try to make friends or be friendly with people. Since most people weren’t being kind to me, I decided to just keep to myself,” she said.",
-      link: "https://www.straitstimes.com/singapore/sharing-their-stories-to-help-other-young-people-with-mental-health-struggles",
+        "“When my late mother was initially suspected of having dementia, I did not know how the following months as a caregiver would come to affect my physical and mental well-being. It became tougher by the day as I had to cope with my mother’s mood swings alongside her failing health. We were in and out of polyclinics and hospitals at least once a month as I fulfilled my role as her caregiver.",
+      link: "https://www.straitstimes.com/opinion/forum/forum-treat-caregivers-as-patients-too-to-better-supervise-their-mental-health",
     },
     {
-      title: "A Journey of Resilience",
+      title: "The Burden",
       imageSrc: mentalhealth,
       content:
-        "“I started slowly isolating myself from people, because I thought there was no point for me to even try to make friends or be friendly with people. Since most people weren’t being kind to me, I decided to just keep to myself,” she said.",
-      link: "https://www.straitstimes.com/singapore/sharing-their-stories-to-help-other-young-people-with-mental-health-struggles",
+        "“Emotional caregiving can’t be outsourced. I have seen first-hand the mental, emotional and physical toll that taking care of my nephew who lives with mental health challenges has taken on my brother and sister-in-law. And more than a few caregivers I personally know have suffered burnout and spiralled into depression. ",
+      link: "https://www.channelnewsasia.com/commentary/mental-health-caregiver-burden-support-tiktok-masked-woman-2867016",
     },
     {
-      title: "A Journey of Resilience",
-      imageSrc: mentalhealth,
+      title: "A Tough Journey",
+      imageSrc: mh3,
       content:
         "“I started slowly isolating myself from people, because I thought there was no point for me to even try to make friends or be friendly with people. Since most people weren’t being kind to me, I decided to just keep to myself,” she said.",
-      link: "https://www.straitstimes.com/singapore/sharing-their-stories-to-help-other-young-people-with-mental-health-struggles",
+      link: "https://www.channelnewsasia.com/listen/daily-cuts/who-cares-caregiver-3756026",
     },
   ];
   return (
@@ -101,23 +103,27 @@ export default function MentalHealth() {
       <section className="stories-section">
         <h2>Stories of Mental Health Patients</h2>
         <div className="story-cards">
-          {mentalHealthStories.map((story, index) => (
-            <div key={index} className="story-card">
-              <div style={{ flexDirection: "row" }}>
-                <img src={story.imageSrc} alt={story.title} />
-                <p>{story.content}</p>
-              </div>
-              <a
-                href={story.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="read-more-button"
-              >
-                Read More
-              </a>
-            </div>
-          ))}
+  {mentalHealthStories.map((story, index) => (
+    <div key={index} className="story-card">
+      <div className="content">
+        <img src={story.imageSrc} alt={story.title} />
+        <div className="text-content">
+          <h2>{story.title}</h2>
+          <p>{story.content}</p>
+          <a
+            href={story.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="read-more-button"
+          >
+            Read More
+          </a>
         </div>
+      </div>
+    </div>
+  ))}
+</div>
+
       </section>
 
       <section className="relaxation-section">
