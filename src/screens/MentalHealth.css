@@ -46,12 +46,11 @@ h2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
   gap: 20px; 
-  
 }
 
 .story-card img {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 300px;
+  max-height: 300px;
   margin-right: 20px;
 }
 
@@ -63,10 +62,10 @@ h2 {
 }
 
 .resources-section {
-background-color: #f2f2f2;
-padding: 20px;
-border-radius: 10px;
-margin: 20px 0;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
 }
 
 .resource-heading {
@@ -163,6 +162,6 @@ flex: 3
     font-size: 14px;
   }
   .relaxation-card {
-  flex-direction: column; /* Stack elements vertically on smaller screens */
+  flex-direction: column; 
 }
 }
