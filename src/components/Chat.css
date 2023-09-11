@@ -6,5 +6,9 @@
 }
 .rcw-client .rcw-message-text {
     background-color: #E884A3;
+    font-weight: bold;
+}
+.rcw-response .rcw-message-text {
+    font-weight: bold;
 }
 
