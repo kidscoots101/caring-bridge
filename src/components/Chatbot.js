@@ -36,7 +36,7 @@ function ChatBot() {
       addResponseMessage(
         "Sure, here's a joke for you: Why don't scientists trust atoms? Because they make up everything!"
       );
-    } else if (lowerCaseMessage.includes("thank you")) {
+    } else if (lowerCaseMessage.includes("thank")) {
       addResponseMessage("You're welcome! If you have any more questions, feel free to ask.");
     } else if (lowerCaseMessage.includes("hhelp")) {
       addResponseMessage(
