@@ -17,31 +17,45 @@ function ChatBot() {
 
   const handleNewUserMessage = (newMessage) => {
     const lowerCaseMessage = newMessage.toLowerCase();
-  
-    if (lowerCaseMessage === "hi") {
+    
+    if (lowerCaseMessage.includes("hi")) {
       addResponseMessage("Hi there! How may I assist you today?");
-    } else if (lowerCaseMessage === "i'm feeling lonely") {
+    } else if (lowerCaseMessage.includes("lonely")) {
       addResponseMessage(
-        "I'm sorry you feel that way. I'm here to chat and keep you company! Loneliness can be a tough feeling to deal with, but talking to someone or engaging in activities you enjoy can help alleviate it. Is there something specific you'd like to talk about or do to help you feel better?"
+        "I'm sorry to hear that you're feeling lonely. I'm here to chat and keep you company! Loneliness can be a tough feeling to deal with, but talking to someone or engaging in activities you enjoy can help alleviate it. Is there something specific you'd like to talk about or do to help you feel better?"
       );
-    } else if (lowerCaseMessage === "i am having a hard time taking care of my patients") {
+    } else if (lowerCaseMessage.includes("patients") && lowerCaseMessage.includes("hard time")) {
       addResponseMessage(
         "I'm sorry to hear that you're having a difficult time taking care of your patients. Providing care for others, especially in a healthcare or caregiving setting, can be emotionally and physically demanding. If you'd like to talk or share anything, I'm here to listen and provide support. Remember, it's okay to struggle, reaching out to friends and family can also help."
       );
-    } else if (lowerCaseMessage === "i'm feeling stressed") {
+    } else if (lowerCaseMessage.includes("stressed")) {
       addResponseMessage(
         "I understand that you're feeling stressed. Stress is a common experience, and there are various relaxation techniques you can try. You can practice deep breathing, progressive muscle relaxation, or mindfulness meditation to help reduce stress. Our website shows more!"
       );
-    } else if (lowerCaseMessage === "tell me a joke") {
+    } else if (lowerCaseMessage.includes("joke")) {
       addResponseMessage(
         "Sure, here's a joke for you: Why don't scientists trust atoms? Because they make up everything!"
       );
-    } else if (lowerCaseMessage === "thank you") {
+    } else if (lowerCaseMessage.includes("thank you")) {
       addResponseMessage("You're welcome! If you have any more questions, feel free to ask.");
+    } else if (lowerCaseMessage.includes("hhelp")) {
+      addResponseMessage(
+        "You can talk to me about the following topics:\n\n" +
+        "- Feeling lonely\n" +
+        "- Difficulty taking care of patients\n" +
+        "- Feeling stressed\n" +
+        "- Tell me a joke\n" +
+        "- Weather information\n" +
+        "- How to contact support\n" +
+        "- Fun facts\n" +
+        "Feel free to choose a topic, or ask me anything else!"
+      );
     } else {
-      addResponseMessage("Sorry I don't really understand. Could you repeat again?");
+      addResponseMessage("Sorry, I don't really understand. Could you please provide more details or rephrase your question?");
     }
   };
+  
+  
   
   
 
