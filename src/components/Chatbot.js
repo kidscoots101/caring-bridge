@@ -24,7 +24,7 @@ function ChatBot() {
       addResponseMessage(
         "I'm sorry to hear that you're feeling lonely. I'm here to chat and keep you company! Loneliness can be a tough feeling to deal with, but talking to someone or engaging in activities you enjoy can help alleviate it. Is there something specific you'd like to talk about or do to help you feel better?"
       );
-    } else if (lowerCaseMessage.includes("patients") && lowerCaseMessage.includes("hard time")) {
+    } else if (lowerCaseMessage.includes("patients") || lowerCaseMessage.includes("hard time")) {
       addResponseMessage(
         "I'm sorry to hear that you're having a difficult time taking care of your patients. Providing care for others, especially in a healthcare or caregiving setting, can be emotionally and physically demanding. If you'd like to talk or share anything, I'm here to listen and provide support. Remember, it's okay to struggle, reaching out to friends and family can also help."
       );
@@ -32,7 +32,7 @@ function ChatBot() {
       addResponseMessage(
         "I understand that you're feeling stressed. Stress is a common experience, and there are various relaxation techniques you can try. You can practice deep breathing, progressive muscle relaxation, or mindfulness meditation to help reduce stress. Our website shows more!"
       );
-    } else if (lowerCaseMessage.includes("joke")) {
+    } else if (lowerCaseMessage.includes("joke") && lowerCaseMessage.includes("tell")) {
       addResponseMessage(
         "Sure, here's a joke for you: Why don't scientists trust atoms? Because they make up everything!"
       );
@@ -54,8 +54,7 @@ function ChatBot() {
       addResponseMessage("Sorry, I don't really understand. Could you please provide more details or rephrase your question?");
     }
   };
-  
-  
+
   
   
 
