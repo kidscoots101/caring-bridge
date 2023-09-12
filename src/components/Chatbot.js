@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from "react";
+import React, { useState} from "react";
 import { Widget, addResponseMessage } from "react-chat-widget";
 import "react-chat-widget/lib/styles.css";
 import "./Chat.css";
@@ -14,7 +14,6 @@ function ChatBot() {
   const handleChatToggle = () => {
     setIsChatOpen(!isChatOpen);
   };
-  
 
   const handleNewUserMessage = (newMessage) => {
     if (newMessage === "Hi") {
@@ -40,7 +39,7 @@ function ChatBot() {
     } else if (newMessage === "Thank you") {
       addResponseMessage("You're welcome! If you have any more questions, feel free to ask.");
     } else {
-      addResponseMessage("Hi there! How may I assist you today?");
+      addResponseMessage("Sorry I don't really understand. Could you repeat again?");
     }
   };
   
@@ -69,5 +68,3 @@ function ChatBot() {
 }
 
 export default ChatBot;
-
-
