@@ -44,6 +44,10 @@ p {
   transition: background-color 0.3s ease;
   font-weight: bold;
 }
+.modal-close-button {
+  background-color: #d65c82;
+  font-weight: bold;
+}
 .modal {
   position: absolute;
   top: 50%;
