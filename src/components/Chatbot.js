@@ -14,6 +14,7 @@ function ChatBot() {
   const handleChatToggle = () => {
     setIsChatOpen(!isChatOpen);
   };
+  
 
   const handleNewUserMessage = (newMessage) => {
     if (newMessage === "Hi") {

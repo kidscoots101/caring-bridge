@@ -192,7 +192,6 @@ export default function MentalHealth() {
           </iframe>
           </div>
             <div className="content">
-
           <p>
             <a
               href="https://www.youtube.com/watch?v=t1rRo6cgM_E"

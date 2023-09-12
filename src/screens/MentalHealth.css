@@ -129,12 +129,12 @@ line-height: 1.4;
 }
 
 .video-container {
-flex: 1; 
+  flex: 1; 
 }
 
 .content {
-align-self: center;
-flex: 3
+  align-self: center;
+  flex: 3;
 }
 
 @media (max-width: 768px) {
