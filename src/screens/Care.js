@@ -15,7 +15,7 @@ import maps from "../assets/google-maps-icon.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import logo from '../assets/caring-bridge-icon.jpeg'
-
+import { useNavigate } from "react-router";
 Modal.setAppElement("#root");
 
 function renderStarRating(rating) {
@@ -36,24 +36,17 @@ function renderStarRating(rating) {
   return stars;
 }
 
-const NursingHomeCard = ({ name, address, imageUrl, rating, coordinates }) => {
+const NursingHomeCard = ({ name, address, imageUrl, rating }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const navigate = useNavigate();
 
   const openModal = () => {
-    setIsModalOpen(true);
+    const url = `/explore?name=${encodeURIComponent(name)}&address=${encodeURIComponent(address)}&imageUrl=${encodeURIComponent(imageUrl)}&rating=${rating}`;
+    navigate(url);
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
-  };
-  const handleSeeMoreClick = () => {
-    const content = (
-      <div>
-        <h2>{name}</h2>
-        <p>{address}</p>
-      </div>
-    );
-    openModal(content);
   };
   const handleShowOnGoogleMaps = () => {
     const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
@@ -323,9 +316,11 @@ export default function Care() {
   const toggleMentalHealthResource = () => {
     setShowMentalHealthResource(!showMentalHealthResource);
   };
+  const navigate = useNavigate();
   const openModal = (content) => {
-    setModalContent(content);
-    setIsModalOpen(true);
+    // setModalContent(content);
+    // setIsModalOpen(true);
+    navigate(`/explore`);
   };
 
   const closeModal = () => {
