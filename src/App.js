@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Care from "./screens/Care";
 import MentalHealth from "./screens/User";
 import logo from "../src/assets/caring-bridge-icon.jpeg";
+import Seemore from "./screens/Seemore";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       />
             <Routes>
         <Route path="/" element={<Care />} />
-        <Route path="/explore" element={<MentalHealth />} />
+        <Route path="/explore" element={<Seemore />} />
+
       </Routes>
       <footer className="footer">
         <div className="footer-content">
