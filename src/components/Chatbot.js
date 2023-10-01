@@ -38,7 +38,7 @@ function ChatBot() {
       );
     } else if (lowerCaseMessage.includes("thank")) {
       addResponseMessage("You're welcome! If you have any more questions, feel free to ask.");
-    } else if (lowerCaseMessage.includes("hhelp")) {
+    } else if (lowerCaseMessage.includes("/help")) {
       addResponseMessage(
         "You can talk to me about the following topics:\n\n" +
         "- Feeling lonely\n" +
@@ -55,9 +55,6 @@ function ChatBot() {
     }
   };
 
-  
-  
-
   return (
     <div
       className={`${isChatOpen ? "expanded" : ""}`}
@@ -69,7 +66,7 @@ function ChatBot() {
         subtitle="Our ChatBot is 24/7!"
         showCloseButton
         fullScreenMode={false}
-        senderPlaceHolder={"Type a message..."}
+        senderPlaceHolder={"Type /help to see what I can do"}
         profileAvatar={logo1}
         profileClientAvatar={profileAvatar}
         titleAvatar={logo1}
